@@ -25,8 +25,6 @@ public class LoginPage extends AppCompatActivity {
             public void onClick(View v) {
                 nmee = nme.getText().toString();
                 passw = pass.getText().toString();
-
-                //Login code
                 if (nmee.equals("abc") & passw.equals("1234"))
                 {
                     Intent intent = new Intent(LoginPage.this, homepage.class);
