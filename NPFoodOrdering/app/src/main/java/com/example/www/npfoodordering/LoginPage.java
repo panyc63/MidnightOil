@@ -16,7 +16,7 @@ public class LoginPage extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login_page);
-        loginbtn = findViewById(R.id.btnLogin);
+        loginbtn = findViewById(R.id.button);
         nme = findViewById(R.id.editText);
         pass = findViewById(R.id.editText2);
         loginbtn.setOnClickListener(new View.OnClickListener() {
@@ -25,13 +25,15 @@ public class LoginPage extends AppCompatActivity {
             public void onClick(View v) {
                 nmee = nme.getText().toString();
                 passw = pass.getText().toString();
-                if (nmee.equals("admin") & passw.equals("1234"))
+
+                //Login Page
+                if (nmee.equals("abc") & passw.equals("1234"))
                 {
                     Intent intent = new Intent(LoginPage.this, homepage.class);
                     startActivity(intent);
                     finish();
                 } else {
-                    Toast.makeText(LoginPage.this, "Wrong Login Details", Toast.LENGTH_LONG).show();
+                    Toast.makeText(LoginPage.this, "Wrong Login Details", Toast.LENGTH_SHORT).show();
                 }
             }
         });
