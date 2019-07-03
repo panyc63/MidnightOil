@@ -17,8 +17,8 @@ public class LoginPage extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login_page);
         loginbtn = findViewById(R.id.btnLogin);
-        nme = findViewById(R.id.editText);
-        pass = findViewById(R.id.editText2);
+        nme = findViewById(R.id.etName);
+        pass = findViewById(R.id.etPass);
         loginbtn.setOnClickListener(new View.OnClickListener() {
 
             @Override
@@ -35,7 +35,9 @@ public class LoginPage extends AppCompatActivity {
                 }
             }
         });
+
     }
+
 }
 
 

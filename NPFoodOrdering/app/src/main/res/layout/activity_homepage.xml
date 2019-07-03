@@ -6,31 +6,62 @@
     android:layout_height="match_parent"
     tools:context=".homepage">
 
+
     <Button
         android:id="@+id/btnQR"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="44dp"
-        android:layout_marginEnd="44dp"
-        android:text="QR Code Scanner"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="16dp"
+        android:text="QR Scanner"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/tvOutput"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="184dp"
-        android:layout_marginTop="312dp"
-        android:text="Result"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
     <Button
         android:id="@+id/btnLogout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Log Out"
-        tools:layout_editor_absoluteX="28dp"
-        tools:layout_editor_absoluteY="44dp" />
+        android:text="Logout"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="100dp"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+    </ScrollView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:text="Orders"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="10pt"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="174dp" />
+
+    <EditText
+        android:id="@+id/etResult"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:enabled="false"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        android:paddingTop="50dp"
+        android:singleLine="false"
+        android:textColor="#000000"
+        tools:layout_editor_absoluteX="-219dp"
+        tools:layout_editor_absoluteY="144dp" />
+
 </android.support.constraint.ConstraintLayout>
