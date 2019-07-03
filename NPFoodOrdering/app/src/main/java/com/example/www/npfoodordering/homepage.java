@@ -3,6 +3,7 @@ package com.example.www.npfoodordering;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 <<<<<<< HEAD
+<<<<<<< HEAD
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -15,11 +16,16 @@ public class homepage extends AppCompatActivity {
 
 public class homepage extends AppCompatActivity {
 >>>>>>> 3f738d17ac29a1efcf21930deac75c9663137d82
+=======
+
+public class homepage extends AppCompatActivity {
+>>>>>>> parent of ef24cf5... added QR Scanner
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_homepage);
+<<<<<<< HEAD
 <<<<<<< HEAD
         btnQR = findViewById(R.id.btnQR);
         btnLogout = findViewById(R.id.btnLogout);
@@ -41,5 +47,7 @@ public class homepage extends AppCompatActivity {
         });
 =======
 >>>>>>> 3f738d17ac29a1efcf21930deac75c9663137d82
+=======
+>>>>>>> parent of ef24cf5... added QR Scanner
     }
 }

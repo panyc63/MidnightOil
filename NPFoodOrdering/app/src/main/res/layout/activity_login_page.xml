@@ -19,10 +19,14 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
 <<<<<<< HEAD
+<<<<<<< HEAD
         app:layout_constraintTop_toBottomOf="@+id/etPass" />
 =======
         app:layout_constraintTop_toTopOf="parent" />
 >>>>>>> 3f738d17ac29a1efcf21930deac75c9663137d82
+=======
+        app:layout_constraintTop_toTopOf="parent" />
+>>>>>>> parent of ef24cf5... added QR Scanner
 
     <EditText
         android:id="@+id/etName"
@@ -35,11 +39,16 @@
         android:ems="10"
         android:inputType="textPersonName"
 <<<<<<< HEAD
+<<<<<<< HEAD
         app:layout_constraintBottom_toTopOf="@+id/etPass"
 =======
         android:hint="Name"
         app:layout_constraintBottom_toBottomOf="parent"
 >>>>>>> 3f738d17ac29a1efcf21930deac75c9663137d82
+=======
+        android:hint="Name"
+        app:layout_constraintBottom_toBottomOf="parent"
+>>>>>>> parent of ef24cf5... added QR Scanner
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.503"
         app:layout_constraintStart_toStartOf="parent"
@@ -69,6 +78,7 @@
         android:layout_width="wrap_content"
         android:layout_height="30dp"
 <<<<<<< HEAD
+<<<<<<< HEAD
         android:layout_marginStart="72dp"
         android:layout_marginTop="208dp"
         android:layout_marginEnd="35dp"
@@ -77,12 +87,17 @@
         app:layout_constraintBottom_toTopOf="@+id/textView2"
         app:layout_constraintEnd_toStartOf="@+id/etName"
 =======
+=======
+>>>>>>> parent of ef24cf5... added QR Scanner
         android:layout_marginStart="8dp"
         android:layout_marginEnd="8dp"
         android:text="Name:"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.103"
+<<<<<<< HEAD
 >>>>>>> 3f738d17ac29a1efcf21930deac75c9663137d82
+=======
+>>>>>>> parent of ef24cf5... added QR Scanner
         app:layout_constraintStart_toStartOf="parent"
         tools:layout_editor_absoluteY="98dp" />
 
@@ -92,16 +107,22 @@
         android:layout_height="30dp"
         android:layout_marginStart="8dp"
 <<<<<<< HEAD
+<<<<<<< HEAD
         android:layout_marginTop="260dp"
         android:text="Password: "
         app:layout_constraintEnd_toStartOf="@+id/etPass"
         app:layout_constraintHorizontal_bias="1.0"
 =======
+=======
+>>>>>>> parent of ef24cf5... added QR Scanner
         android:layout_marginEnd="8dp"
         android:text="Password"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.081"
+<<<<<<< HEAD
 >>>>>>> 3f738d17ac29a1efcf21930deac75c9663137d82
+=======
+>>>>>>> parent of ef24cf5... added QR Scanner
         app:layout_constraintStart_toStartOf="parent"
         tools:layout_editor_absoluteY="148dp" />
 </android.support.constraint.ConstraintLayout>

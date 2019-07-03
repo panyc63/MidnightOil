@@ -17,10 +17,13 @@ public class LoginPage extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login_page);
 <<<<<<< HEAD
+<<<<<<< HEAD
         loginbtn = findViewById(R.id.btnLogin);
         nme = findViewById(R.id.etName);
         pass = findViewById(R.id.etPass);
 =======
+=======
+>>>>>>> parent of ef24cf5... added QR Scanner
         loginbtn = findViewById(R.id.button);
         nme = findViewById(R.id.editText);
         pass = findViewById(R.id.editText2);

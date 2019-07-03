@@ -7,6 +7,7 @@
     tools:context=".homepage">
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 
     <Button
         android:id="@+id/btnQR"
@@ -67,4 +68,6 @@
 
 =======
 >>>>>>> 3f738d17ac29a1efcf21930deac75c9663137d82
+=======
+>>>>>>> parent of ef24cf5... added QR Scanner
 </android.support.constraint.ConstraintLayout>
