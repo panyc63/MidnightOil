@@ -1,8 +1,8 @@
 package com.example.www.npfoodordering;
 
-import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+<<<<<<< HEAD
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -11,11 +11,16 @@ import android.widget.TextView;
 public class homepage extends AppCompatActivity {
     private Button btnQR,btnLogout;
     public static EditText output;
+=======
+
+public class homepage extends AppCompatActivity {
+>>>>>>> 3f738d17ac29a1efcf21930deac75c9663137d82
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_homepage);
+<<<<<<< HEAD
         btnQR = findViewById(R.id.btnQR);
         btnLogout = findViewById(R.id.btnLogout);
         output = findViewById(R.id.etResult);
@@ -34,5 +39,7 @@ public class homepage extends AppCompatActivity {
                 finish();
             }
         });
+=======
+>>>>>>> 3f738d17ac29a1efcf21930deac75c9663137d82
     }
 }

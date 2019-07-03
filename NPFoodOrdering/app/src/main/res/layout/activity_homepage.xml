@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".homepage">
 
+<<<<<<< HEAD
 
     <Button
         android:id="@+id/btnQR"
@@ -64,4 +65,6 @@
         tools:layout_editor_absoluteX="-219dp"
         tools:layout_editor_absoluteY="144dp" />
 
+=======
+>>>>>>> 3f738d17ac29a1efcf21930deac75c9663137d82
 </android.support.constraint.ConstraintLayout>
